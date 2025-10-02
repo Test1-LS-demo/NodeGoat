@@ -1,0 +1,91 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:nodegoat-sbom-001",
+  "metadata": {
+    "timestamp": "2025-10-01T22:00:00.000Z",
+    "tools": [
+      {
+        "vendor": "Legit Security",
+        "name": "Demo SBOM Generator",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "NodeGoat",
+      "version": "1.3.0",
+      "description": "OWASP NodeGoat - Vulnerable Node.js application"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "express",
+      "version": "4.13.4",
+      "description": "Node.js web framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "bcrypt-nodejs",
+      "version": "0.0.3",
+      "description": "bcrypt for Node.js",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "body-parser",
+      "version": "1.15.1",
+      "description": "Express body parsing middleware",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "helmet",
+      "version": "2.0.0",
+      "description": "Security middleware for Express",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "mongodb",
+      "version": "2.1.18",
+      "description": "MongoDB driver for Node.js",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
+
